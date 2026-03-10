@@ -1,0 +1,17 @@
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\JokeMonitor.csproj.AssemblyReference.cache
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\JokeMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\JokeMonitor.AssemblyInfoInputs.cache
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\JokeMonitor.AssemblyInfo.cs
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\JokeMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\bin\Debug\net9.0\JokeMonitor.exe
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\bin\Debug\net9.0\JokeMonitor.deps.json
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\bin\Debug\net9.0\JokeMonitor.runtimeconfig.json
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\bin\Debug\net9.0\JokeMonitor.dll
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\bin\Debug\net9.0\JokeMonitor.pdb
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\JokeMoni.17ABF84A.Up2Date
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\JokeMonitor.dll
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\refint\JokeMonitor.dll
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\JokeMonitor.pdb
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\JokeMonitor.genruntimeconfig.cache
+C:\Users\Best Hp\Desktop\jokesAPI\JokeMonitor\obj\Debug\net9.0\ref\JokeMonitor.dll
