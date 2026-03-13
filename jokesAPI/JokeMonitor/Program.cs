@@ -1,17 +1,17 @@
-﻿using System;
-using System.Net.Http;// it gives you Internet tools like HttpClient
-using System.Threading;// it gives you Time tools like Thread.Sleep
-using System.Text.Json;// it gives you SON tools like JsonDocument
+using System;         // herramientas basicas (cw)
+using System.Net.Http;// herramentas de internet (HttpClient)
+using System.Threading;// herramientas de internet (Thread.Sleep)(cronometro)
+using System.Text.Json;// herramientas para leer JSON (JsonDocument)
 
 class Program
 {
-    static HttpClient client = new HttpClient();// create a phone that can call websites 
+    static HttpClient client = new HttpClient();// crear el telefono 
 
-    static string chisteAnterior = ""; //to remember the last jk we got 
+    static string chisteAnterior = ""; // recordar el ultimo chiste
 
-    static string urlApi = "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&safe-mode";
+    static string urlApi = "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&safe-mode"; //?
 
-    static void Main()
+    static void Main() // interruptor principal que enciende todo el programa
     {
         Console.WriteLine("=========================================");
         Console.WriteLine(" JOKE MONITOR PROGRAM ");
@@ -19,17 +19,19 @@ class Program
         Console.WriteLine($"loading...");
         Console.WriteLine($"Using: {urlApi}\n");
 
-        while (true)
+        while (true) // como un reloj que nunca para
         {
-            try
+            try //intenta hacer esto
             {
-                string chisteActual = obtenerChiste(); //get a joke from API
+                string chisteActual = obtenerChiste(); //llama a la funcion que pide el chiste 
 
-                //SHOW THE JOKE con tiempo
-                Console.WriteLine($"[{DateTime.Now:HH:mm:ss}] 📢 CURRENT JOKE:");
-                Console.WriteLine(chisteActual);
-                Console.WriteLine(new string('-', 40));//This creates a line of 40 dashes
 
+                Console.WriteLine($"[{DateTime.Now:HH:mm:ss}] CURRENT JOKE:"); //muestra la hora actual antes del chiste 
+                Console.WriteLine(chisteActual);  //muestra el chiste 
+                Console.WriteLine(new string('-', 40));// dibuja 40 guillones
+
+
+                // comparar con el chiste anterior
                 if (chisteAnterior != "" && chisteActual != chisteAnterior)
                 {
                     Console.WriteLine("CHANGE DETECTED! New joke received!\n"); // the n to start a  new line 
@@ -45,10 +47,10 @@ class Program
 
                 chisteAnterior = chisteActual;
 
-                Console.WriteLine($"⏳ Waiting 10 seconds...\n"); // wait 10 seconds
+                Console.WriteLine($" Waiting 10 seconds...\n"); // wait 10 seconds
                 Thread.Sleep(10000); // 10000 milliseconds = 10 seconds
             }
-            catch (Exception ex) //if something goes wrong like no internet
+            catch (Exception ex) //si algo sale mal haz esto
             {
                 Console.WriteLine($" Error: {ex.Message}");
                 Console.WriteLine("Will try again in 10 seconds...\n");
